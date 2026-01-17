@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maksym Panarin | Frontend Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Maksym</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="#contact" class="contact-btn">Contact Me</a>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <svg class="sun-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10" cy="10" r="4" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M10 2V4M10 16V18M18 10H16M4 10H2M15.5 4.5L14 6M6 14L4.5 15.5M15.5 15.5L14 14M6 6L4.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-circle">
+                <div class="avatar-container">
+                    <div class="avatar-placeholder">MP</div>
+                </div>
+                <h1 class="hero-title">Maksym Panarin</h1>
+                <p class="hero-subtitle">Frontend Developer 💻</p>
+                <p class="hero-description">
+                    Building modern, responsive web applications with React and TypeScript. 
+                    Passionate about clean code, user experience, and creating intuitive interfaces 
+                    that make a difference.
+                </p>
+                <a href="#contact" class="cta-button">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me</p>
+            </div>
+            <div class="about-content">
+                <p class="about-text">
+                    Hi there! I'm Maksym Panarin, a frontend developer based in Charlotte, NC. 
+                    I'm transitioning from delivery and landscape work into web development, 
+                    bringing a strong work ethic and problem-solving mindset to every project.
+                </p>
+                <p class="about-text">
+                    I specialize in building responsive web applications using React, TypeScript, 
+                    and modern CSS. With expertise in API integration, state management, and 
+                    component-based architecture, I'm dedicated to creating clean, maintainable 
+                    code that delivers excellent user experiences.
+                </p>
+                <p class="about-text">
+                    Currently expanding my skills into full-stack development with Node.js and 
+                    exploring cybersecurity fundamentals through hands-on challenges. I'm actively 
+                    seeking opportunities to contribute to a collaborative team and continue growing 
+                    as a developer.
+                </p>
+                <a href="mailto:pmax.vlod@gmail.com?subject=Resume%20Request" class="download-btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What I Do</h2>
+                <p class="section-subtitle">My Skills</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.25 9.75L16.5 12L14.25 14.25M9.75 14.25L7.5 12L9.75 9.75M6 20.25H18C19.2426 20.25 20.25 19.2426 20.25 18V6C20.25 4.75736 19.2426 3.75 18 3.75H6C4.75736 3.75 3.75 4.75736 3.75 6V18C3.75 19.2426 4.75736 20.25 6 20.25Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">React Development</h3>
+                    <p class="skill-description">
+                        Building interactive, component-based user interfaces with React. 
+                        Experienced in hooks, state management, and modern React patterns 
+                        for scalable applications.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.25 3H5.25C4.42157 3 3.75 3.67157 3.75 4.5V7.5M8.25 21H5.25C4.42157 21 3.75 20.3284 3.75 19.5V16.5M15.75 3H18.75C19.5784 3 20.25 3.67157 20.25 4.5V7.5M15.75 21H18.75C19.5784 21 20.25 20.3284 20.25 19.5V16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">TypeScript Applications</h3>
+                    <p class="skill-description">
+                        Developing type-safe applications with TypeScript. Creating robust, 
+                        maintainable code with strong typing, interfaces, and modern ES6+ features.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.75 20.25V14.25H14.25V20.25M3.75 8.25L12 3.75L20.25 8.25V19.5C20.25 20.3284 19.5784 21 18.75 21H5.25C4.42157 21 3.75 20.3284 3.75 19.5V8.25Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">Responsive Design</h3>
+                    <p class="skill-description">
+                        Creating mobile-first, responsive layouts that work seamlessly across 
+                        all devices. Expert in modern CSS, Flexbox, Grid, and Tailwind CSS.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 16.875L17.625 12.75L13.5 8.625M10.5 8.625L6.375 12.75L10.5 16.875M3.75 12C3.75 7.44365 7.44365 3.75 12 3.75C16.5563 3.75 20.25 7.44365 20.25 12C20.25 16.5563 16.5563 20.25 12 20.25C7.44365 20.25 3.75 16.5563 3.75 12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">API Integration</h3>
+                    <p class="skill-description">
+                        Integrating RESTful APIs and handling data flow. Experience with fetch, 
+                        axios, error handling, and working with multiple data sources.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 7.5L19.5 7.5M4.5 12L19.5 12M4.5 16.5L19.5 16.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">UI/UX Implementation</h3>
+                    <p class="skill-description">
+                        Translating designs into pixel-perfect, accessible interfaces. 
+                        Focus on user experience, accessibility standards, and modern design principles.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">Some of my Work</p>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="react">React</button>
+                <button class="filter-btn" data-filter="typescript">TypeScript</button>
+                <button class="filter-btn" data-filter="api">API Integration</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="react typescript api">
+                    <div class="project-image">
+                        <div class="image-placeholder">Weather App Screenshot</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-description">Multi-API weather application with data comparison and TypeScript</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">REST APIs</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://weather-app-max-panarins-projects.vercel.app/" target="_blank" class="project-link">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 10L10 6M10 6V10M10 6H6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="react">
+                    <div class="project-image">
+                        <div class="image-placeholder">Product Catalog Screenshot</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Product Catalog</h3>
+                        <p class="project-description">Responsive e-commerce UI with JSON data and modern grid layouts</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://mxxpxn.github.io/product-list/" target="_blank" class="project-link">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 10L10 6M10 6V10M10 6H6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="react">
+                    <div class="project-image">
+                        <div class="image-placeholder">Pomodoro Timer Screenshot</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Pomodoro Timer</h3>
+                        <p class="project-description">Productivity timer with session/break controls and audio notifications</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://mxxpxn.github.io/Clock25-5/" target="_blank" class="project-link">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 10L10 6M10 6V10M10 6H6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-all-container">
+                <a href="https://github.com/mxxpxn" target="_blank" class="view-all-btn">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-heading">Let's Work Together</h3>
+                    <p class="contact-text">
+                        I'm currently looking for frontend development opportunities. 
+                        If you have a project in mind or just want to chat about web development, 
+                        feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <a href="mailto:pmax.vlod@gmail.com" class="contact-email">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.5 6.25L10 11.25L17.5 6.25M4.16667 15H15.8333C16.7538 15 17.5 14.2538 17.5 13.3333V6.66667C17.5 5.74619 16.7538 5 15.8333 5H4.16667C3.24619 5 2.5 5.74619 2.5 6.66667V13.3333C2.5 14.2538 3.24619 15 4.16667 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            pmax.vlod@gmail.com
+                        </a>
+                        <p class="contact-location">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 10.625C11.0355 10.625 11.875 9.78553 11.875 8.75C11.875 7.71447 11.0355 6.875 10 6.875C8.96447 6.875 8.125 7.71447 8.125 8.75C8.125 9.78553 8.96447 10.625 10 10.625Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 17.5C10 17.5 16.25 13.125 16.25 8.75C16.25 5.29822 13.4518 2.5 10 2.5C6.54822 2.5 3.75 5.29822 3.75 8.75C3.75 13.125 10 17.5 10 17.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Charlotte, NC
+                        </p>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="mailto:pmax.vlod@gmail.com" method="get" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="body" rows="5" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">© 2025 Maksym Panarin. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/mxxpxn" target="_blank" class="social-link" aria-label="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 0C4.477 0 0 4.477 0 10c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0110 4.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C17.138 18.163 20 14.418 20 10c0-5.523-4.477-10-10-10z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/maksym-panarin/" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.5195 0H1.47656C0.660156 0 0 0.644531 0 1.44141V18.5547C0 19.3516 0.660156 20 1.47656 20H18.5195C19.3359 20 20 19.3516 20 18.5586V1.44141C20 0.644531 19.3359 0 18.5195 0ZM5.93359 17.043H2.96484V7.49609H5.93359V17.043ZM4.44922 6.19531C3.49609 6.19531 2.72656 5.42578 2.72656 4.47656C2.72656 3.52734 3.49609 2.75781 4.44922 2.75781C5.39844 2.75781 6.16797 3.52734 6.16797 4.47656C6.16797 5.42188 5.39844 6.19531 4.44922 6.19531ZM17.043 17.043H14.0781V12.4023C14.0781 11.2969 14.0586 9.87109 12.5352 9.87109C10.9922 9.87109 10.7578 11.0781 10.7578 12.3242V17.043H7.79688V7.49609H10.6406V8.80078H10.6797C11.0742 8.05078 12.043 7.25781 13.4844 7.25781C16.4883 7.25781 17.043 9.23438 17.043 11.8047V17.043Z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:pmax.vlod@gmail.com" class="social-link" aria-label="Email">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                            <path d="M2.5 6.25L10 11.25L17.5 6.25M4.16667 15H15.8333C16.7538 15 17.5 14.2538 17.5 13.3333V6.66667C17.5 5.74619 16.7538 5 15.8333 5H4.16667C3.24619 5 2.5 5.74619 2.5 6.66667V13.3333C2.5 14.2538 3.24619 15 4.16667 15Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
