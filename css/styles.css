@@ -198,18 +198,14 @@ body {
 }
 
 .avatar-placeholder {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto;
-    background: linear-gradient(135deg, var(--accent-primary) 0%, #3a8eef 100%);
+    background: url(/assets/C299D8DF-F382-4C48-9D1D-4FA050756E2D_1_102_o.jpeg)center/cover no-repeat;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
-    font-weight: 700;
-    color: white;
-    border: 4px solid var(--bg-primary);
     box-shadow: 0 10px 30px rgba(74, 158, 255, 0.3);
 }
 
@@ -304,6 +300,7 @@ body {
 .about-content {
     max-width: 800px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .about-text {
@@ -315,6 +312,7 @@ body {
 
 .download-btn {
     display: inline-block;
+    
     padding: 0.875rem 2rem;
     background-color: transparent;
     color: var(--text-primary);
@@ -445,6 +443,17 @@ body {
     overflow: hidden;
     background-color: var(--bg-secondary);
     position: relative;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.05);
 }
 
 .image-placeholder {
