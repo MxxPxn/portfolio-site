@@ -21,7 +21,7 @@
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
     --spacing-2xl: 4rem;
-    --spacing-3xl: 6rem;
+    --spacing-3xl: 8rem;
 
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -76,14 +76,9 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    background-color: rgba(26, 26, 26, 0.95);
-    backdrop-filter: blur(10px);
+    background-color: var(--bg-primary);
     border-bottom: 1px solid var(--border-color);
     transition: var(--transition);
-}
-
-:root.light-theme .navbar {
-    background-color: rgba(255, 255, 255, 0.95);
 }
 
 .nav-container {
@@ -186,11 +181,15 @@ body {
 
 .hero-circle {
     position: relative;
-    padding: var(--spacing-3xl) var(--spacing-xl);
+    padding: 8rem;
     border-radius: 50%;
     background:
         linear-gradient(to top, var(--bg-primary) 0%, var(--bg-primary) 30%, transparent 70%),
         url(/assets/Rectangle\ 3.png) no-repeat center/cover;
+}
+
+:root.light-theme .hero-circle {
+    background: white;
 }
 
 .avatar-container {
@@ -213,10 +212,15 @@ body {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: var(--spacing-sm);
-    background: linear-gradient(135deg, #ffffff 0%, #a0a0a0 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+:root.light-theme .hero-title {
+    background: none;
+    -webkit-text-fill-color: #000000;
+    color: #000000;
 }
 
 .hero-subtitle {
